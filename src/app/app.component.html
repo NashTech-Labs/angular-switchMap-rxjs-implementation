@@ -1,0 +1,7 @@
+<div style="width: 500px;height: 300px;" class="card d-flex justify-content-center align-items-center">
+  <label class="form-label">Find Fruites</label>
+  <input class="form-control ms-2 me-2" [formControl]="inputField" type="text" placeholder="..." />
+  <div *ngFor="let item of fruitsList">
+    {{item}}
+  </div>
+</div>
